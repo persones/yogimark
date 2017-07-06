@@ -1,2 +1,2 @@
 # yogimark
-Twitter bot twitting yoga sessions phrases built from a  markov model
+Twitter bot twitting yoga sessions phrases built using a Markov chain
