@@ -102,3 +102,4 @@ ENV/
 
 credentials.py
 corpus.txt
+model.json
