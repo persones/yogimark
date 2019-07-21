@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-python yogimark.py
+python3 yogimark.py

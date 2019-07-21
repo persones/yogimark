@@ -20,8 +20,8 @@ with open("model.json", 'w') as f:
 phrase = text_model.make_short_sentence(140, tries=1000)  
 
 if args.notweet:
-  print "tweeting disabled"
-  print phrase
+  print("tweeting disabled")
+  print(phrase)
 else:  
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
